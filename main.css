@@ -1,8 +1,9 @@
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1200px) {
     body {
         background-image: url(/images/mariobackground.jpeg);
         background-size: 80%;
+        background-size: contain;
     } 
     /* .marioPestControl {
         display: grid;
@@ -22,20 +23,25 @@
     #headerImage {
         size: 40px;
     }
+    .pestContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .goombaContainer {
-        position: absolute;
+        /* position: absolute;
         right: 350px;
-        bottom: 350px;
+        bottom: 350px; */
+        margin: 10px 10px;
+        padding: 10px;
         font-size: 20px;
     }
-    .goombaContainer:hover {
-        border: 2px solid black;
-    }
+   
     #goombaTitle {
         text-align: center;
     }
     #goombaImg {
-        width: 150px;
+        height: 150px;
         display: block;
         margin: auto;
     }
@@ -43,13 +49,13 @@
         opacity: 0.5;
     } */
     .bobombContainer {
-        position: absolute;
-        left: 150px;
+        /* position: absolute;
+        left: 150px; */
+        margin: 10px 10px;
+        padding: 10px;
         font-size: 20px;
     }
-    .bobombContainer:hover {
-        border: 2px solid black;
-    }
+    
     #bobombTitle {
         text-align: center;
     }
@@ -59,14 +65,14 @@
         margin: auto;
     }
     .cheepContainer {
-        position: absolute;
+        /* position: absolute;
         right: 850px;
-        bottom: 150px;
+        bottom: 150px; */
+        margin: 10px 10px;
+        padding: 10px;
         font-size: 20px;
     }
-    .cheepContainer:hover {
-        border: 2px solid black;
-    }
+    
     #cheepTitle {
         text-align: center;
     }
